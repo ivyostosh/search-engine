@@ -2,7 +2,7 @@
 A simple index-based search engine.
 
 ## Getting started
-1. Install [Node.js] (https://nodejs.org/en/). Recommend version Node 17.
+1. Install [Node.js](https://nodejs.org/en/). Recommend version Node 17.
 2. Clone the repository with git, or download and extract the zip file from the GitHub repo.
 3. Run one of the following npm commands to explore the search-engine:
     - Compile and run the CLI: `npm run full-start`
@@ -25,7 +25,7 @@ A simple index-based search engine.
 6. Run `node out/cli-runner.js < data/valid-input-test1.txt` to see an example without invalid inputs, and `node out/cli-runner.js < data/invalid-input-test1.txt` to see an example with invalid inputs.
 
 ## Main Algorithm
-With a design goal to optimize query speed over indexing speed, the search-engine used [inverted indexes] (https://en.wikipedia.org/wiki/Inverted_index#:~:text=In%20computer%20science%2C%20an%20inverted,index%2C%20which%20maps%20from%20documents) to create the indexing database.
+With a design goal to optimize query speed over indexing speed, the search-engine used [inverted indexes](https://en.wikipedia.org/wiki/Inverted_index#:~:text=In%20computer%20science%2C%20an%20inverted,index%2C%20which%20maps%20from%20documents) to create the indexing database.
 
 ## Assumptions and Notes
 1. The inverted index database saves all token in lower cases. If a upper case token or mixed case token is used in the command, the command will be converted to lower case first before saving / querying the inverted index database.
